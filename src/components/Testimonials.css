@@ -1,0 +1,40 @@
+.testimonials {
+  padding: 50px;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+}
+
+.testimonials h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #4caf50;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-bottom: 20px;
+  flex: 1 1 calc(33% - 40px);
+}
+
+.testimonial p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.testimonial h4 {
+  font-size: 16px;
+  color: #ccc;
+}

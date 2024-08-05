@@ -1,0 +1,80 @@
+.pricing {
+  padding: 50px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.pricing h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #4caf50;
+}
+
+.pricing-plan-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pricing-plan {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-bottom: 20px;
+  flex: 1 1 calc(33% - 40px);
+}
+
+.pricing-plan h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.pricing-plan .price {
+  font-size: 22px;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.pricing-plan ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  text-align: left;
+}
+
+.pricing-plan li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.pricing-plan button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pricing-plan button:hover {
+  background-color: #45a049;
+}
+
+.featured-plan {
+  background-color: #4caf50;
+  color: white;
+}
+
+.featured-plan h3,
+.featured-plan .price,
+.featured-plan ul,
+.featured-plan li,
+.featured-plan button {
+  color: white;
+}

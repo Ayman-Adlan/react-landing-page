@@ -1,0 +1,21 @@
+.features {
+  padding: 50px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.features h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.features ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 10px 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
